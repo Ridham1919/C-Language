@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+	  int arr[5]={10,36,40,50},i;
+	  int num,found=0;
+	  clrscr();
+
+	  printf("enter a number to search: ");
+	  scanf("%d",&num);
+
+	  for(i=0;i<5;i++){
+	    if(arr[i]==num){
+	      found=1;
+	      break;
+	    }
+	  }
+	  if(found){
+	    printf("yes\n");
+	  }
+	  else{
+	      printf("no\n");
+	  }
+
+	 getch();
+
+
+
+}

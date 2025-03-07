@@ -1,0 +1,41 @@
+#include<stdio.h>
+int main(){
+	  int oldid=123,newid,oldpassword=123,newpassword;
+	  printf("enter your old id =");
+	  scanf("%d",&newid);
+	  if(newid==oldid){
+			  printf("enter ypur old password =");
+			  scanf("%d",&newpassword);
+
+	    if(newpassword==oldpassword){
+				printf("\nlogin success.");
+				}
+	    else{
+		  printf("\npassword wrong.");
+		  }
+	   }
+	   else{
+		     printf("\ndose not match.");
+
+	   }
+
+
+
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

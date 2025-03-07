@@ -1,0 +1,13 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+	  int i,a[4]={10,20,30,40},p=0;
+	  clrscr();
+	  for(i=0;i<=3;i++){
+	     printf("\nenter value of a[%d]:%d",i,a[i]);
+	     p +=a[i];
+	  }
+	    printf("\nsum : %d",p);
+
+	  getch();
+}

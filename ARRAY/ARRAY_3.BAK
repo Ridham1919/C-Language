@@ -1,0 +1,29 @@
+#include<stdio.h>
+#include<conio.h>
+void main(){
+	  int arr1[3],arr2[3],i,same;
+	  clrscr();
+
+	  printf("enter elements for first array:\n");
+	  for(i=0;i<3;i++){
+	    scanf("%d",&arr1[i]);
+	  }
+	  printf("enter elements for second array:\n");
+	  for(i=0;i<3;i++){
+	    scanf("%d",arr2[i]);
+	  }
+
+	  for(i=0;i<3;i++){
+	     if(arr1[i]!=arr2[i]){
+	       same=10;
+	       break;
+	     }
+	     if(same){
+	     printf("both arrays are the same.\n");
+		  }
+	  else{
+	     printf("arrays are different.\n");
+	     }
+	  }
+	 getch();
+}
